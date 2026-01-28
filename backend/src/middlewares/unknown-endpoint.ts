@@ -1,7 +1,7 @@
-import { Request, Response } from "express";
+import { Request, Response } from 'express'
 
 const unknownEndpoint = (_req: Request, res: Response) => {
-  res.status(404).json({ message: "unknown endpoint" });
-};
+  res.status(404).json({ message: 'unknown endpoint' })
+}
 
-export default unknownEndpoint;
+export default unknownEndpoint

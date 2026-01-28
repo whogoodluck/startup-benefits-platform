@@ -1,12 +1,12 @@
-import { config } from "dotenv";
+import { config } from 'dotenv'
 
-config();
+config()
 
-const NODE_ENV = process.env.NODE_ENV;
+const NODE_ENV = process.env.NODE_ENV
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3001
 
 export default {
   NODE_ENV,
   PORT,
-};
+}
